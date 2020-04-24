@@ -12,7 +12,7 @@ def summon_captain_planet(planeteer_calls)
 #  planeteer_calls.map do |element|
     element.upcase
     element + "!"
-  end
+#  end
 end
 
 def long_planeteer_calls(planeteer_calls)
@@ -20,7 +20,7 @@ def long_planeteer_calls(planeteer_calls)
   # Return the boolean result of this check
 #  planeteer_calls.any? do |element|
     element.length > 4
-  end
+#  end
 end
 
 def find_valid_calls(planeteer_calls)
