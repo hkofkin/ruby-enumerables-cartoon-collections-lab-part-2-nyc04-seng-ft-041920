@@ -29,7 +29,11 @@ def find_valid_calls(planeteer_calls)
   
     count = 0
     planeteer_calls.find do |element|
-      element == valid_calls[count]
+      if element == valid_calls[count]
+        return true 
+      else
+        return nil
+      end
       count += 1
     end
 end
